@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C3CC52711EC9C04A0041E4E4 /* ibeacon-Location-Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ibeacon-Location-Notification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CC52711EC9C04A0041E4E4 /* ibeacon-Location-Background-Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ibeacon-Location-Background-Notification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CC52741EC9C04A0041E4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3CC52761EC9C04A0041E4E4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C3CC52781EC9C04A0041E4E4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		C3CC527F1EC9C04A0041E4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3CC52821EC9C04A0041E4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3CC52841EC9C04A0041E4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3CC52891EC9C04A0041E4E4 /* ibeacon-Location-NotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ibeacon-Location-NotificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CC52891EC9C04A0041E4E4 /* ibeacon-Location-Background-NotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ibeacon-Location-Background-NotificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CC528D1EC9C04B0041E4E4 /* ibeacon_Closest_BeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibeacon_Closest_BeaconTests.swift; sourceTree = "<group>"; };
 		C3CC528F1EC9C04B0041E4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3CC52941EC9C04B0041E4E4 /* ibeacon-Location-NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ibeacon-Location-NotificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CC52941EC9C04B0041E4E4 /* ibeacon-Location-Background-NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ibeacon-Location-Background-NotificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CC52981EC9C04B0041E4E4 /* ibeacon_Closest_BeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibeacon_Closest_BeaconUITests.swift; sourceTree = "<group>"; };
 		C3CC529A1EC9C04B0041E4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		C3CC52721EC9C04A0041E4E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3CC52711EC9C04A0041E4E4 /* ibeacon-Location-Notification.app */,
-				C3CC52891EC9C04A0041E4E4 /* ibeacon-Location-NotificationTests.xctest */,
-				C3CC52941EC9C04B0041E4E4 /* ibeacon-Location-NotificationUITests.xctest */,
+				C3CC52711EC9C04A0041E4E4 /* ibeacon-Location-Background-Notification.app */,
+				C3CC52891EC9C04A0041E4E4 /* ibeacon-Location-Background-NotificationTests.xctest */,
+				C3CC52941EC9C04B0041E4E4 /* ibeacon-Location-Background-NotificationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3CC52701EC9C0450041E4E4 /* ibeacon-Location-Notification */ = {
+		C3CC52701EC9C0450041E4E4 /* ibeacon-Location-Background-Notification */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3CC529D1EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-Notification" */;
+			buildConfigurationList = C3CC529D1EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-Background-Notification" */;
 			buildPhases = (
 				C3CC526D1EC9C0450041E4E4 /* Sources */,
 				C3CC526E1EC9C0450041E4E4 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "ibeacon-Location-Notification";
+			name = "ibeacon-Location-Background-Notification";
 			productName = "ibeacon-Closest-Beacon";
-			productReference = C3CC52711EC9C04A0041E4E4 /* ibeacon-Location-Notification.app */;
+			productReference = C3CC52711EC9C04A0041E4E4 /* ibeacon-Location-Background-Notification.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C3CC52881EC9C04A0041E4E4 /* ibeacon-Location-NotificationTests */ = {
+		C3CC52881EC9C04A0041E4E4 /* ibeacon-Location-Background-NotificationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3CC52A01EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-NotificationTests" */;
+			buildConfigurationList = C3CC52A01EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-Background-NotificationTests" */;
 			buildPhases = (
 				C3CC52851EC9C04A0041E4E4 /* Sources */,
 				C3CC52861EC9C04A0041E4E4 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				C3CC528B1EC9C04A0041E4E4 /* PBXTargetDependency */,
 			);
-			name = "ibeacon-Location-NotificationTests";
+			name = "ibeacon-Location-Background-NotificationTests";
 			productName = "ibeacon-Closest-BeaconTests";
-			productReference = C3CC52891EC9C04A0041E4E4 /* ibeacon-Location-NotificationTests.xctest */;
+			productReference = C3CC52891EC9C04A0041E4E4 /* ibeacon-Location-Background-NotificationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C3CC52931EC9C04B0041E4E4 /* ibeacon-Location-NotificationUITests */ = {
+		C3CC52931EC9C04B0041E4E4 /* ibeacon-Location-Background-NotificationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3CC52A31EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-NotificationUITests" */;
+			buildConfigurationList = C3CC52A31EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-Background-NotificationUITests" */;
 			buildPhases = (
 				C3CC52901EC9C04B0041E4E4 /* Sources */,
 				C3CC52911EC9C04B0041E4E4 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				C3CC52961EC9C04B0041E4E4 /* PBXTargetDependency */,
 			);
-			name = "ibeacon-Location-NotificationUITests";
+			name = "ibeacon-Location-Background-NotificationUITests";
 			productName = "ibeacon-Closest-BeaconUITests";
-			productReference = C3CC52941EC9C04B0041E4E4 /* ibeacon-Location-NotificationUITests.xctest */;
+			productReference = C3CC52941EC9C04B0041E4E4 /* ibeacon-Location-Background-NotificationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -201,6 +201,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4R7SGYTCUE;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					C3CC52881EC9C04A0041E4E4 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -216,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C3CC526C1EC9C0440041E4E4 /* Build configuration list for PBXProject "ibeacon-Location-Notification" */;
+			buildConfigurationList = C3CC526C1EC9C0440041E4E4 /* Build configuration list for PBXProject "ibeacon-Location-Background-Notification" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3CC52701EC9C0450041E4E4 /* ibeacon-Location-Notification */,
-				C3CC52881EC9C04A0041E4E4 /* ibeacon-Location-NotificationTests */,
-				C3CC52931EC9C04B0041E4E4 /* ibeacon-Location-NotificationUITests */,
+				C3CC52701EC9C0450041E4E4 /* ibeacon-Location-Background-Notification */,
+				C3CC52881EC9C04A0041E4E4 /* ibeacon-Location-Background-NotificationTests */,
+				C3CC52931EC9C04B0041E4E4 /* ibeacon-Location-Background-NotificationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		C3CC528B1EC9C04A0041E4E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C3CC52701EC9C0450041E4E4 /* ibeacon-Location-Notification */;
+			target = C3CC52701EC9C0450041E4E4 /* ibeacon-Location-Background-Notification */;
 			targetProxy = C3CC528A1EC9C04A0041E4E4 /* PBXContainerItemProxy */;
 		};
 		C3CC52961EC9C04B0041E4E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C3CC52701EC9C0450041E4E4 /* ibeacon-Location-Notification */;
+			target = C3CC52701EC9C0450041E4E4 /* ibeacon-Location-Background-Notification */;
 			targetProxy = C3CC52951EC9C04B0041E4E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.ibeacon-Closest-BeaconTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ibeacon-Location-Notification.app/ibeacon-Location-Notification";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ibeacon-Location-Background-Notification.app/ibeacon-Location-Background-Notification";
 			};
 			name = Debug;
 		};
@@ -473,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.ibeacon-Closest-BeaconTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ibeacon-Location-Notification.app/ibeacon-Location-Notification";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ibeacon-Location-Background-Notification.app/ibeacon-Location-Background-Notification";
 			};
 			name = Release;
 		};
@@ -508,7 +513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3CC526C1EC9C0440041E4E4 /* Build configuration list for PBXProject "ibeacon-Location-Notification" */ = {
+		C3CC526C1EC9C0440041E4E4 /* Build configuration list for PBXProject "ibeacon-Location-Background-Notification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3CC529B1EC9C04B0041E4E4 /* Debug */,
@@ -517,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3CC529D1EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-Notification" */ = {
+		C3CC529D1EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-Background-Notification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3CC529E1EC9C04B0041E4E4 /* Debug */,
@@ -526,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3CC52A01EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-NotificationTests" */ = {
+		C3CC52A01EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-Background-NotificationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3CC52A11EC9C04B0041E4E4 /* Debug */,
@@ -535,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3CC52A31EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-NotificationUITests" */ = {
+		C3CC52A31EC9C04B0041E4E4 /* Build configuration list for PBXNativeTarget "ibeacon-Location-Background-NotificationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3CC52A41EC9C04B0041E4E4 /* Debug */,

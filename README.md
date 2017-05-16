@@ -1,4 +1,4 @@
-# ibeacon-Closest-Beacon: Estimote Development
+# ibeacon-Location-Background-Notification: Estimote Development
 Developer: Anthony A. Castor
 
 This Source does not give any warranty please use at your own risk </br>

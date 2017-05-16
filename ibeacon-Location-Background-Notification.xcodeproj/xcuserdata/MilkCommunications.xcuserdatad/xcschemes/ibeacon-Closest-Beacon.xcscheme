@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C3CC52701EC9C0450041E4E4"
-               BuildableName = "ibeacon-Location-Notification.app"
-               BlueprintName = "ibeacon-Location-Notification"
-               ReferencedContainer = "container:ibeacon-Location-Notification.xcodeproj">
+               BuildableName = "ibeacon-Location-Background-Notification.app"
+               BlueprintName = "ibeacon-Location-Background-Notification"
+               ReferencedContainer = "container:ibeacon-Location-Background-Notification.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C3CC52881EC9C04A0041E4E4"
-               BuildableName = "ibeacon-Location-NotificationTests.xctest"
-               BlueprintName = "ibeacon-Location-NotificationTests"
-               ReferencedContainer = "container:ibeacon-Location-Notification.xcodeproj">
+               BuildableName = "ibeacon-Location-Background-NotificationTests.xctest"
+               BlueprintName = "ibeacon-Location-Background-NotificationTests"
+               ReferencedContainer = "container:ibeacon-Location-Background-Notification.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C3CC52931EC9C04B0041E4E4"
-               BuildableName = "ibeacon-Location-NotificationUITests.xctest"
-               BlueprintName = "ibeacon-Location-NotificationUITests"
-               ReferencedContainer = "container:ibeacon-Location-Notification.xcodeproj">
+               BuildableName = "ibeacon-Location-Background-NotificationUITests.xctest"
+               BlueprintName = "ibeacon-Location-Background-NotificationUITests"
+               ReferencedContainer = "container:ibeacon-Location-Background-Notification.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C3CC52701EC9C0450041E4E4"
-            BuildableName = "ibeacon-Location-Notification.app"
-            BlueprintName = "ibeacon-Location-Notification"
-            ReferencedContainer = "container:ibeacon-Location-Notification.xcodeproj">
+            BuildableName = "ibeacon-Location-Background-Notification.app"
+            BlueprintName = "ibeacon-Location-Background-Notification"
+            ReferencedContainer = "container:ibeacon-Location-Background-Notification.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C3CC52701EC9C0450041E4E4"
-            BuildableName = "ibeacon-Location-Notification.app"
-            BlueprintName = "ibeacon-Location-Notification"
-            ReferencedContainer = "container:ibeacon-Location-Notification.xcodeproj">
+            BuildableName = "ibeacon-Location-Background-Notification.app"
+            BlueprintName = "ibeacon-Location-Background-Notification"
+            ReferencedContainer = "container:ibeacon-Location-Background-Notification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C3CC52701EC9C0450041E4E4"
-            BuildableName = "ibeacon-Location-Notification.app"
-            BlueprintName = "ibeacon-Location-Notification"
-            ReferencedContainer = "container:ibeacon-Location-Notification.xcodeproj">
+            BuildableName = "ibeacon-Location-Background-Notification.app"
+            BlueprintName = "ibeacon-Location-Background-Notification"
+            ReferencedContainer = "container:ibeacon-Location-Background-Notification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

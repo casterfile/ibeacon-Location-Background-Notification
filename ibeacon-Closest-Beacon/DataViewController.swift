@@ -43,8 +43,20 @@ class DataViewController: UIViewController, CLLocationManagerDelegate {
         if status == .authorizedAlways {
             if CLLocationManager.isMonitoringAvailable(for: CLBeaconRegion.self) {
                 if CLLocationManager.isRangingAvailable() {
-                    startScanning()
+                    BackgroundNotification()
                 }
+            }
+        }
+    }
+    
+    func BackgroundNotification() {
+        DispatchQueue.global(qos: .background).async {
+            print("This is run on the background queue")
+            self.startScanning()
+            print("YOu are in the background")
+            DispatchQueue.main.async {
+                print("This is run on the main queue, after the previous code in outer block")
+                 self.startScanning()
             }
         }
     }
@@ -84,7 +96,7 @@ class DataViewController: UIViewController, CLLocationManagerDelegate {
                 self.view.backgroundColor = UIColor.red
                 self.NotificationInfo(Color: "Red")
             }
-            print(distance)
+//            print(distance)
             
         }
     }
@@ -112,6 +124,10 @@ class DataViewController: UIViewController, CLLocationManagerDelegate {
             
         }
     }
+    
+    
+    
+
 
 
 }
